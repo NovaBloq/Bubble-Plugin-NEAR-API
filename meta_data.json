@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "analytics",
+        "3": "payment"
+    },
+    "description": "",
+    "image": "//s3.amazonaws.com/appforest_uf/f1665059563061x621428171936429600/near.png",
+    "license": "private",
+    "name": "NEAR API"
+}

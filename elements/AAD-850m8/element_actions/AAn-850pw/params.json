@@ -1,0 +1,13 @@
+{
+    "caption": "Deploy Contract",
+    "doc": "Action to deploy smart contracts",
+    "fields": {
+        "AAo": {
+            "caption": "Contract File",
+            "editor": "DynamicValue",
+            "name": "contract",
+            "rank": 0,
+            "value": "file"
+        }
+    }
+}

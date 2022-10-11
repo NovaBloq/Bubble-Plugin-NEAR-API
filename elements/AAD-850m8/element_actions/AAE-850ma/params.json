@@ -1,0 +1,37 @@
+{
+    "caption": "Connect",
+    "doc": "Action to connect wallet to network",
+    "fields": {
+        "AAF": {
+            "caption": "Contract Address",
+            "editor": "DynamicValue",
+            "name": "contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "App Tite",
+            "editor": "DynamicValue",
+            "name": "app_tite",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Redirect URL on Success",
+            "editor": "DynamicValue",
+            "name": "redirect_url_on_success",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Redirect URL on Failure",
+            "editor": "DynamicValue",
+            "name": "redirect_url_on_failure",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}

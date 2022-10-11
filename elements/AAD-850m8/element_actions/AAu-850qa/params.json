@@ -1,0 +1,75 @@
+{
+    "caption": "Call Method",
+    "doc": "Action to interact with contract's methods",
+    "fields": {
+        "AAv": {
+            "caption": "Name",
+            "doc": "Contract method name",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAw": {
+            "caption": "Arguments",
+            "doc": "Argument name and value",
+            "editor": "key_value_list",
+            "name": "arguments",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAx": {
+            "caption": "GAS",
+            "doc": "Attached GAS (optional)",
+            "editor": "DynamicValue",
+            "name": "gas",
+            "optional": true,
+            "rank": 4,
+            "value": "number"
+        },
+        "AAy": {
+            "caption": "NEAR Amount",
+            "doc": "Attached deposit in NEAR (optional)",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        },
+        "AAz": {
+            "caption": "Callback URL",
+            "doc": "Callback URL for redirect after the transaction approved (optional)",
+            "editor": "DynamicValue",
+            "name": "callback_url",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "ABA": {
+            "caption": "Meta",
+            "doc": "Meta information NEAR Wallet will send back to the application. \"Meta\" will be attached to the \"Callback URL\" as a url search param",
+            "editor": "DynamicValue",
+            "name": "meta",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "ABB": {
+            "caption": "Method Type",
+            "default_val": "View",
+            "doc": "Method type",
+            "editor": "Dropdown",
+            "name": "method_type",
+            "options": "View,Change",
+            "rank": 1
+        },
+        "ABG": {
+            "caption": "Contract Address",
+            "doc": "Smart contract address",
+            "editor": "DynamicValue",
+            "name": "contract_address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

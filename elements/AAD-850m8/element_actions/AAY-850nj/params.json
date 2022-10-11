@@ -1,0 +1,20 @@
+{
+    "caption": "Send Money",
+    "doc": "Action to transfer funds",
+    "fields": {
+        "AAZ": {
+            "caption": "Receiver Address",
+            "editor": "DynamicValue",
+            "name": "receiver_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "Amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 1,
+            "value": "number"
+        }
+    }
+}

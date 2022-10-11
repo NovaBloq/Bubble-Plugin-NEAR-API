@@ -1,0 +1,192 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "NEAR Wallet",
+    "events": {
+        "AAk": {
+            "caption": "Connected",
+            "doc": "Trigger on wallet connect",
+            "name": "connected"
+        },
+        "AAl": {
+            "caption": "Disconnected",
+            "doc": "Trigger on wallet disconnect",
+            "name": "disconnected"
+        },
+        "AAm": {
+            "caption": "Money Sent",
+            "doc": "Trigger on money sent",
+            "name": "money_sent"
+        },
+        "AAq": {
+            "caption": "Contract Deployed",
+            "doc": "Trigger on contract deploy",
+            "name": "contract_deployed"
+        },
+        "ABE": {
+            "caption": "Method Executed",
+            "doc": "Trigger on method call",
+            "name": "method_executed"
+        }
+    },
+    "fields": {
+        "AAL": {
+            "caption": "Network",
+            "default_val": "testnet",
+            "editor": "Dropdown",
+            "name": "networkId",
+            "options": "testnet,mainnet,betanet",
+            "rank": 0
+        }
+    },
+    "icon": "ion-cash",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAK": {
+            "caption": "Is Signed In",
+            "doc": "",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "is_signed_in",
+            "value": "boolean"
+        },
+        "AAQ": {
+            "caption": "Account ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "account_id",
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "[Balance] Available",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "available",
+            "value": "number"
+        },
+        "AAV": {
+            "caption": "[Balance] Staked",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "staked",
+            "value": "number"
+        },
+        "AAW": {
+            "caption": "[Balance] State Staked",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "state_staked",
+            "value": "number"
+        },
+        "AAX": {
+            "caption": "[Balance] Total",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "total",
+            "value": "number"
+        },
+        "AAc": {
+            "caption": "[Transaction] ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "trxid",
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "[Transaction] Executor ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "executor_id",
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "[Transaction] Receipt ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "receipt_id",
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "[Transaction] Receiver ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "receiver_id",
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "[Transaction] Pending",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "tpending",
+            "value": "boolean"
+        },
+        "AAp": {
+            "caption": "[Deploy] Pending",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "dpending",
+            "value": "boolean"
+        },
+        "AAr": {
+            "caption": "[Deploy] ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "dtrxid",
+            "value": "text"
+        },
+        "AAs": {
+            "caption": "[Deploy] Executor ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "dexecutor_id",
+            "value": "text"
+        },
+        "AAt": {
+            "caption": "[Deploy] Receipt ID",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "dreceipt_id",
+            "value": "text"
+        },
+        "ABD": {
+            "caption": "[Method] Response",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "response",
+            "value": "text"
+        },
+        "ABF": {
+            "caption": "[Method] Pending",
+            "initialization_code": {
+                "fn": "function(properties, context) { return undefined }"
+            },
+            "name": "mpending",
+            "value": "boolean"
+        }
+    }
+}
